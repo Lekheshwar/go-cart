@@ -16,7 +16,7 @@
     },
     {
         "name" : "CAN USB FD Adapter (GC-CAN-USB-FD)",
-        "price" : "315.00",
+        "price" : "315.0",
         "description" : "Monitor a CAN network, write a CAN program and communicate with industrial, medical, automotive or other CAN based device. Connect CAN FD and CAN networks to a computer via USB with the CAN USB FD adapter.",
         "ratings" : 1.65,
         "images" : [{
@@ -46,7 +46,7 @@
     },
     {
         "name" : "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
-        "price" : "299.00 ",
+        "price" : "299.00",
         "description" : "What happens when you clear away the noisy distractions of the world? Concentration goes to the next level. You get deeper into your music, your work, or whatever you want to focus on. That’s the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you’re most passionate about. And that’s just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
         "ratings" : 4.5,
         "images" : [{
