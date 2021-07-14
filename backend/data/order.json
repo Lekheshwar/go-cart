@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "order": {
+        "itemsPrice": 2.75,
+        "taxPrice": 0.14,
+        "shippingPrice": 25,
+        "totalPrice": 27.89,
+        "orderStatus": "Processing",
+        "createdAt": "2021-07-14T08:45:44.016Z",
+        "_id": "60eea45e4cf32b343833af06",
+        "shippingInfo": {
+            "address": "3951  Smith Street",
+            "phoneNo": "5555551234",
+            "postalCode": "10001",
+            "country": "United States"
+        },
+        "paymentInfo": {
+            "id": "pi_1HrMVNAlHMiRMt8E1BguvVIo",
+            "status": "succeeded"
+        },
+        "paidAt": "2021-07-14T08:46:22.692Z",
+        "user": "60ec7a4ac3c4b32c9cdcde7c",
+        "orderItem": [],
+        "__v": 0
+    }
+}
