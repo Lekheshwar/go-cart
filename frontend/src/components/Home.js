@@ -6,7 +6,10 @@ import { getProducts } from "../actions/productActions";
 import Product from "./product/Product";
 import Loader from "./layout/Loader";
 
+import { useAlert } from "react-alert";
+
 export default function Home() {
+  const alert = useAlert();
   const dispatch = useDispatch();
 
   const { loading, products, error, productsCount } = useSelector(
@@ -14,8 +17,11 @@ export default function Home() {
   );
 
   useEffect(() => {
+    if (error) {
+      return alert.error(error);
+    }
     dispatch(getProducts());
-  }, [dispatch]);
+  }, [dispatch, alert, error]);
 
   return (
     <>
